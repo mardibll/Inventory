@@ -1,0 +1,130 @@
+@media screen and (min-device-width: 1025px) {
+  .container {
+    padding: 30px 50px;
+    border-top: 0.5px solid gray;
+  }
+
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    button {
+      font-weight: 500;
+    }
+  }
+  .body {
+    padding: 15px 0px;
+    border-bottom: 0.5px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p {
+      width: 320px;
+    }
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    i {
+      color: #04b4fc;
+      font-size: 29;
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (min-device-width: 601px) and (max-device-width: 1024px) {
+  .container {
+    padding: 30px 50px;
+    border-top: 0.5px solid gray;
+  }
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    button {
+      font-weight: 500;
+    }
+  }
+  .body {
+    padding: 15px 0px;
+    border-bottom: 0.5px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p {
+      max-width: 250px;
+    }
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    i {
+      color: #04b4fc;
+      font-size: 29;
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+}
+
+@media (max-device-width: 600px) {
+  .container {
+    padding: 30px 20px;
+    border-top: 0.5px solid gray;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 30px;
+    border-bottom: 0.5px solid gray;
+    padding-bottom: 20px;
+    button {
+      font-weight: 500;
+    }
+  }
+  .body {
+    padding: 7px 0px;
+    p {
+      max-width: 250px;
+    }
+  }
+  .icon {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    i {
+      color: #04b4fc;
+      font-size: 29;
+    }
+  }
+
+  .footer {
+    padding-top: 10px;
+  }
+}

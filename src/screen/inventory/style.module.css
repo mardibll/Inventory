@@ -1,0 +1,56 @@
+@media screen and (min-device-width: 1025px) {
+  .container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .content_left {
+    width: 67%;
+
+  }
+  .action {
+    display: flex;
+    background-color: #f4f5fc;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border: solid rgb(214, 211, 211) 0.5px;
+    i {
+      background-color: #04b4fc;
+      border-radius: 5px;
+      color: white;
+      padding: 6px 15px;
+    }
+    input {
+      border: solid rgb(214, 211, 211) 0.5px;
+      height: 35px;
+      padding-left: 10px;
+      border-radius: 5px;
+      padding-right: 10px;
+    }
+  }
+  .list_product {
+    background-color: white;
+    p {
+      padding: 20px;
+    }
+  }
+  .content_right {
+    border: solid rgb(142, 140, 140) 0.5px;
+    height: 743px;
+    padding: 0px 20px;
+    width: 33%;
+  }
+  .actions {
+    padding-top: 20px;
+    button {
+      text-align: start;
+      border-radius: 5px;
+      border: solid rgb(239, 235, 235) 0.5px;
+      width: 100%;
+      margin: 3px;
+      padding: 15px;
+    }
+  }
+}

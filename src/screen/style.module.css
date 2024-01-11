@@ -1,0 +1,32 @@
+@media screen and (min-device-width: 1025px) {
+  .container {
+    display: flex;
+    background-color: #f4f5fc;
+  }
+  .navbar {
+    width: 292px;
+    padding: 30px;
+  }
+  .summary {
+    padding: 25px 30px;
+    margin: 0px 30px;
+  }
+}
+@media screen and (min-device-width: 601px) and (max-device-width: 1024px) {
+  .container {
+    background-color: #f4f5fc;
+  }
+  .sum_bar {
+    display: flex;
+    width: 100%;
+  }
+  .navbar {
+    width: 47%;
+    /* background-color: white; */
+    padding: 25px 20px;
+  }
+  .summary {
+    width: 53%;
+    padding: 25px 20px;
+  }
+}

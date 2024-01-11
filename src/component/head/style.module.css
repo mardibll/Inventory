@@ -1,0 +1,28 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+  border-bottom: 0.5px solid gray;
+}
+@media (max-device-width: 600px) {
+  .container {
+    padding: 10px 20px;
+    i{
+        font-size: 20px;
+        border: solid rgb(215, 212, 212) 1px;
+        padding: 0px 9px;
+        color: black;
+        border-radius: 7px;
+    }
+  }
+}
